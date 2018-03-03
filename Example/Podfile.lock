@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyEssentials (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyEssentials (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyEssentials:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyEssentials: 99bba4fded49bcc206a7dc5613484da147743ae0
+
+PODFILE CHECKSUM: 20a0b722fbadbd0c844f54bc6b0b14c7b0d105b7
+
+COCOAPODS: 1.4.0

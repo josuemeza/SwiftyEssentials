@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyEssentials",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyEssentials.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Josue Meza Peña/SwiftyEssentials",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Josue Meza Peña": "contacto@josuemeza.com"
+  },
+  "source": {
+    "git": "https://github.com/Josue Meza Peña/SwiftyEssentials.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyEssentials/Classes/**/*"
+}
