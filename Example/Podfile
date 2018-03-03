@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyEssentials_Example' do
+  pod 'SwiftyEssentials', :path => '../'
+
+  target 'SwiftyEssentials_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
