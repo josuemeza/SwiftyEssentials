@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyEssentials'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Classes and extensions to simplify the generally iOS development on Swift.'
   s.swift_version    = '3.2'
 
