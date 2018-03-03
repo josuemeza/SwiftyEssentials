@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension NSAttributedString {
+public extension NSAttributedString {
     
     // MARK: - Methods
     

@@ -8,9 +8,14 @@
 
 import UIKit
 
-extension UIAlertController {
-    func applyAccessibilityIdentifiers()
-    {
+public extension UIAlertController {
+    
+    /**
+     **applyAccessibilityIdentifiers**
+     
+     Apply accesibility identifiers on UIAlertController.
+     */
+    func applyAccessibilityIdentifiers() {
         for action in actions
         {
             let label = action.value(forKey: "__representer")
@@ -22,19 +27,29 @@ extension UIAlertController {
     
 }
 
-extension UIAlertAction
-{
+public extension UIAlertAction{
+    
     private struct AssociatedKeys {
         static var AccessabilityIdentifier = "nsh_AccesabilityIdentifier"
     }
     
-    func setAccessibilityIdentifier(accessabilityIdentifier: String)
-    {
+    /**
+     **setAccessibilityIdentifier**
+     
+     Set an accessibility identifier to UIAlertAction.
+     
+     - Parameter accessabilityIdentifier: An string to use like accessibility identifier.
+     */
+    func setAccessibilityIdentifier(accessabilityIdentifier: String) {
         objc_setAssociatedObject(self, &AssociatedKeys.AccessabilityIdentifier, accessabilityIdentifier, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
     }
     
-    func getAcAccessibilityIdentifier() -> String?
-    {
+    /**
+     **getAcAccessibilityIdentifier**
+     
+     - Returns: The accessibility identifier of UIAlertAction.
+     */
+    func getAcAccessibilityIdentifier() -> String? {
         return objc_getAssociatedObject(self, &AssociatedKeys.AccessabilityIdentifier) as? String
     }
 }

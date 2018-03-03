@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSDate {
+public extension NSDate {
     
     // MARK: - Attributes
     

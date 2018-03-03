@@ -10,6 +10,7 @@ import UIKit
 
 public extension UIDevice {
     
+    /// Return a device model name.
     var modelName: String {
         var systemInfo = utsname()
         uname(&systemInfo)

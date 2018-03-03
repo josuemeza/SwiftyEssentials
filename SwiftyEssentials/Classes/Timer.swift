@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Timer {
+public extension Timer {
     
     // MARK: - Class functions
     

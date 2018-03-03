@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSDictionary {
+public extension NSDictionary {
     
     /// :nodoc:
     @available(*, deprecated)

@@ -8,8 +8,16 @@
 
 import UIKit
 
-extension UIApplication {
+public extension UIApplication {
     
+    /**
+     **topViewController**
+     
+     Return the top view controller fron parameter base.
+     
+     - Parameter base: Base UIViewController to search.
+     - Returns: Base UIViewController.
+     */
     class func topViewController(base: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
         if let nav = base as? UINavigationController {
             return topViewController(base: nav.visibleViewController)

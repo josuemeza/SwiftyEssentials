@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     
     /**
      **imageFrom(url:,defaultImageName:,completion:)**

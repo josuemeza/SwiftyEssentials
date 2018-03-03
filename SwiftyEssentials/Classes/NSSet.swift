@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSSet {
+public extension NSSet {
     
     /// :nodoc:
     @available(*, deprecated)

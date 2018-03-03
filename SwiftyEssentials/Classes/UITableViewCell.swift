@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableViewCell {
+public extension UITableViewCell {
     
     /// Table view of this cell
     var tableView: UITableView? {
@@ -21,7 +21,7 @@ extension UITableViewCell {
         }
     }
     
-    // Index path of this cell on table view
+    /// Index path of this cell on table view
     var indexPath: IndexPath? {
         get {
             guard let tableView = self.tableView else { return nil }
