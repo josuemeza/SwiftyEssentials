@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyEssentials'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyEssentials.'
+  s.version          = '1.0.0'
+  s.summary          = 'Classes and extensions to simplify the generally iOS development on Swift.'
+  s.swift_version    = '3.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Set of classes and extensions that simplifies the daily development of applications in Swift.
                        DESC
 
-  s.homepage         = 'https://github.com/Josue Meza Peña/SwiftyEssentials'
+  s.homepage         = 'https://github.com/josuemeza/SwiftyEssentials'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Josue Meza Peña' => 'contacto@josuemeza.com' }
-  s.source           = { :git => 'https://github.com/Josue Meza Peña/SwiftyEssentials.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/josuemeza/SwiftyEssentials.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SwiftyEssentials/Classes/**/*'
   
