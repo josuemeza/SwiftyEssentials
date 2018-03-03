@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftyUtils
+import SwiftyEssentials
 
 class HasOnlyOneElementSingleExampleTableViewCell: UITableViewCell {
     
