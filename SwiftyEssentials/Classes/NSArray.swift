@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension NSArray {
+public extension NSArray {
     
     /// :nodoc:
     @available(*, deprecated)

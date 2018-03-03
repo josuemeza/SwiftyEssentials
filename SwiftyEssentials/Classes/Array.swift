@@ -49,6 +49,8 @@ public extension Array where Iterator.Element == Bool {
 
 public extension Array where Element: NSAttributedString {
     
+    // MARK: - NSAttributedString array methods
+    
     /**
      **joined(separator:)**
      

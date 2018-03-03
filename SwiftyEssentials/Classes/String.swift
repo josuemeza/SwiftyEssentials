@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
     
     // MARK: - Subscripts
     
