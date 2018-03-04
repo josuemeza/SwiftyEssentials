@@ -11,13 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '1.0.1'
   s.summary          = 'Classes and extensions to simplify the generally iOS development on Swift.'
   s.swift_version    = '3.2'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 Set of classes and extensions that simplifies the daily development of applications in Swift.
                        DESC
@@ -32,7 +25,7 @@ Set of classes and extensions that simplifies the daily development of applicati
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SwiftyEssentials/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'SwiftyEssentials' => ['SwiftyEssentials/Assets/*.png']
   # }

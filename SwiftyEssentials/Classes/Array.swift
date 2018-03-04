@@ -147,7 +147,11 @@ public extension Array {
         var group : [Array<Element>] = []
         while array.count > 0 {
             group.append(array.take(n))
-            array.removeFirst(n)
+            if array.count < n {
+                array.removeAll()
+            } else {
+                array.removeFirst(n)
+            }
         }
         return group
     }

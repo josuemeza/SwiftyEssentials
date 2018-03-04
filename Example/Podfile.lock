@@ -1,5 +1,5 @@
 PODS:
-  - SwiftyEssentials (0.1.0)
+  - SwiftyEssentials (1.0.1)
 
 DEPENDENCIES:
   - SwiftyEssentials (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SwiftyEssentials: 99bba4fded49bcc206a7dc5613484da147743ae0
+  SwiftyEssentials: d031325643d066235685ba25ad77a236a234b973
 
-PODFILE CHECKSUM: 20a0b722fbadbd0c844f54bc6b0b14c7b0d105b7
+PODFILE CHECKSUM: 1f1adae41fb128336dfc4ef4ea5d6812f204bab9
 
 COCOAPODS: 1.4.0
