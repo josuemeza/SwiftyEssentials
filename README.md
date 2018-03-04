@@ -26,4 +26,4 @@ Josue Meza Peña, contacto@josuemeza.com
 
 ## License
 
-SwiftyEssentials is available under the MIT license. See the LICENSE file for more info.
+SwiftyEssentials is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

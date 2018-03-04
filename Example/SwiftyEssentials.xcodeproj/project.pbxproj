@@ -35,6 +35,7 @@
 		FA155580204A418900596540 /* RemoveSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556B204A418900596540 /* RemoveSingleExampleTableViewCell.swift */; };
 		FA155581204A418900596540 /* PushPopSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */; };
 		FA155582204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */; };
+		FA9A2699204B5D750083F2AF /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A2698204B5D750083F2AF /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		FA15556B204A418900596540 /* RemoveSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushPopSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheOnlyOneElementSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
+		FA9A2698204B5D750083F2AF /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				FA9A2698204B5D750083F2AF /* Array.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -427,9 +430,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyEssentials_Tests/Pods-SwiftyEssentials_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyEssentials/SwiftyEssentials.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyEssentials.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				FA9A2699204B5D750083F2AF /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
