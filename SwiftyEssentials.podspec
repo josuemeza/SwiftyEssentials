@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'SwiftyEssentials'
   s.version          = '1.0.3'
   s.summary          = 'Classes and extensions to simplify the generally iOS development on Swift.'
-  s.swift_version    = '3.2'
+  s.swift_version    = '4.0'
   s.description      = <<-DESC
 Set of classes and extensions that simplifies the daily development of applications in Swift.
                        DESC
