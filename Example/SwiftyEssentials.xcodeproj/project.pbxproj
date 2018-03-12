@@ -35,7 +35,8 @@
 		FA155580204A418900596540 /* RemoveSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556B204A418900596540 /* RemoveSingleExampleTableViewCell.swift */; };
 		FA155581204A418900596540 /* PushPopSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */; };
 		FA155582204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */; };
-		FA9A2699204B5D750083F2AF /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A2698204B5D750083F2AF /* Array.swift */; };
+		FA92AE882056D1E3009B5577 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE872056D1E3009B5577 /* DateTests.swift */; };
+		FA9A2699204B5D750083F2AF /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A2698204B5D750083F2AF /* ArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +89,8 @@
 		FA15556B204A418900596540 /* RemoveSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushPopSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheOnlyOneElementSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
-		FA9A2698204B5D750083F2AF /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		FA92AE872056D1E3009B5577 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
+		FA9A2698204B5D750083F2AF /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +161,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FA9A2698204B5D750083F2AF /* Array.swift */,
+				FA9A2698204B5D750083F2AF /* ArrayTests.swift */,
+				FA92AE872056D1E3009B5577 /* DateTests.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -514,7 +517,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-				FA9A2699204B5D750083F2AF /* Array.swift in Sources */,
+				FA92AE882056D1E3009B5577 /* DateTests.swift in Sources */,
+				FA9A2699204B5D750083F2AF /* ArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

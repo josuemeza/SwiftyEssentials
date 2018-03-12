@@ -17,6 +17,7 @@
 		A926C936498BCE6DB0A8924E17315187 /* Pods-SwiftyEssentials_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF58E5DA30F248ADB5CE44FAB214925 /* Pods-SwiftyEssentials_Tests-dummy.m */; };
 		E9A244FCA483A78EC86CFCCA5E223E22 /* Pods-SwiftyEssentials_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9805B28428EB2CEF20D48A663921B4 /* Pods-SwiftyEssentials_Example-dummy.m */; };
 		EF939CA4126A4EE76B327A7259599A56 /* Pods-SwiftyEssentials_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA28FB7952BA64C96E57999EE6792BC /* Pods-SwiftyEssentials_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA92AE862056D18E009B5577 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE832056D18E009B5577 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		F29BBFB14854361DD55F2FBB14930522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F36DF52FBDB6A478ACA01FBA7318F95D /* UIAlertController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIAlertController.html; path = docs/Extensions/UIAlertController.html; sourceTree = "<group>"; };
 		F8F8B146516ACD963E916BCE1F148549 /* Pods-SwiftyEssentials_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyEssentials_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA92AE832056D18E009B5577 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Date.swift; path = SwiftyEssentials/Classes/Date.swift; sourceTree = "<group>"; };
 		FC22180631131EE8DAE302122A264451 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		FD0A517E32D12ECF40DB966B4816C384 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		FF63FB5AAB6E36D3039BE432CFE2A196 /* SwiftyEssentials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyEssentials.modulemap; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				9B288296F6523A8953FB5E94647A31B2 /* Array.swift */,
+				FA92AE832056D18E009B5577 /* Date.swift */,
 				690EB4F1172D594C2F51247065E35DD8 /* Pod */,
 				9F090E028F4CD3552A88BEF9B22D98BE /* Support Files */,
 			);
@@ -444,6 +447,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					34CA82BB2FD4B08B6043D4ACA82CE734 = {
+						LastSwiftMigration = 0920;
+					};
+					AB99E5A1B6643CEC792013433044FC3E = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -478,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1ABCAA2FE9BDB3A2593BED2E9A5FA7C /* Array.swift in Sources */,
+				FA92AE862056D18E009B5577 /* Date.swift in Sources */,
 				601ADA1C3F681BD32A3F8C09D4F00390 /* SwiftyEssentials-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5EE39D1463FDB4540CDE6D17978E4B77 /* Pods-SwiftyEssentials_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -596,6 +609,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -661,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 316F5C69E8C9A3FFD5C22FDA7F7CAE6E /* Pods-SwiftyEssentials_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -684,6 +699,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -695,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C705070A074E8ED51800AB30F9CA0649 /* Pods-SwiftyEssentials_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -718,6 +735,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -761,6 +779,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD17E5A7685A6EEB674332CDFBDF138A /* Pods-SwiftyEssentials_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -785,6 +804,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
