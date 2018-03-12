@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## **1.0.5** 2018-03-12
+
+### Added
+
+- Int extension with unit tests.
+- NSDate extension with unit tests.
+
+### Fixed
+
+- Date from timestamp test.
+
 ## **1.0.4** 2018-03-12
 
 ### Added
@@ -12,17 +23,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## **1.0.3** 2018-03-05
 
-## Removed
+### Removed
 
 - FileManager extension.
 
 ## **1.0.2** 2018-03-04
 
-## Added
+### Added
 
 - Array unit tests.
 
-## Fixed
+### Fixed
 
 - Error when using groupOf to group an array with different values of group count.
 
