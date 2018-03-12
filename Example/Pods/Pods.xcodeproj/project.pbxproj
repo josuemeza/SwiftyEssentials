@@ -22,6 +22,7 @@
 		FA92AE902056F613009B5577 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE8F2056F613009B5577 /* NSDate.swift */; };
 		FA92AE9420570468009B5577 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE9320570468009B5577 /* String.swift */; };
 		FA92AE9820570CB2009B5577 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE9720570CB2009B5577 /* Timer.swift */; };
+		FA92AE9C20570E52009B5577 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE9B20570E52009B5577 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 		FA92AE8F2056F613009B5577 /* NSDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSDate.swift; path = SwiftyEssentials/Classes/NSDate.swift; sourceTree = "<group>"; };
 		FA92AE9320570468009B5577 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String.swift; path = SwiftyEssentials/Classes/String.swift; sourceTree = "<group>"; };
 		FA92AE9720570CB2009B5577 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = SwiftyEssentials/Classes/Timer.swift; sourceTree = "<group>"; };
+		FA92AE9B20570E52009B5577 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIApplication.swift; path = SwiftyEssentials/Classes/UIApplication.swift; sourceTree = "<group>"; };
 		FC22180631131EE8DAE302122A264451 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		FD0A517E32D12ECF40DB966B4816C384 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		FF63FB5AAB6E36D3039BE432CFE2A196 /* SwiftyEssentials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyEssentials.modulemap; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				FA92AE8F2056F613009B5577 /* NSDate.swift */,
 				FA92AE9320570468009B5577 /* String.swift */,
 				FA92AE9720570CB2009B5577 /* Timer.swift */,
+				FA92AE9B20570E52009B5577 /* UIApplication.swift */,
 				690EB4F1172D594C2F51247065E35DD8 /* Pod */,
 				9F090E028F4CD3552A88BEF9B22D98BE /* Support Files */,
 			);
@@ -500,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA92AE9C20570E52009B5577 /* UIApplication.swift in Sources */,
 				FA92AE9420570468009B5577 /* String.swift in Sources */,
 				A1ABCAA2FE9BDB3A2593BED2E9A5FA7C /* Array.swift in Sources */,
 				FA92AE9820570CB2009B5577 /* Timer.swift in Sources */,

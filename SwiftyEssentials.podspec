@@ -23,7 +23,7 @@ Set of classes and extensions that simplifies the daily development of applicati
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.frameworks = 'UIKit'
   s.source_files = 'SwiftyEssentials/Classes/**/*'
 
   # s.resource_bundles = {
