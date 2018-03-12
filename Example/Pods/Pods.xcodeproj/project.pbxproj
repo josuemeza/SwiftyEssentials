@@ -19,6 +19,7 @@
 		EF939CA4126A4EE76B327A7259599A56 /* Pods-SwiftyEssentials_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA28FB7952BA64C96E57999EE6792BC /* Pods-SwiftyEssentials_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA92AE862056D18E009B5577 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE832056D18E009B5577 /* Date.swift */; };
 		FA92AE8A2056F1A4009B5577 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE892056F1A4009B5577 /* Int.swift */; };
+		FA92AE902056F613009B5577 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE8F2056F613009B5577 /* NSDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		F8F8B146516ACD963E916BCE1F148549 /* Pods-SwiftyEssentials_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyEssentials_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA92AE832056D18E009B5577 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Date.swift; path = SwiftyEssentials/Classes/Date.swift; sourceTree = "<group>"; };
 		FA92AE892056F1A4009B5577 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Int.swift; path = SwiftyEssentials/Classes/Int.swift; sourceTree = "<group>"; };
+		FA92AE8F2056F613009B5577 /* NSDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSDate.swift; path = SwiftyEssentials/Classes/NSDate.swift; sourceTree = "<group>"; };
 		FC22180631131EE8DAE302122A264451 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		FD0A517E32D12ECF40DB966B4816C384 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		FF63FB5AAB6E36D3039BE432CFE2A196 /* SwiftyEssentials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyEssentials.modulemap; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				FA92AE892056F1A4009B5577 /* Int.swift */,
 				690EB4F1172D594C2F51247065E35DD8 /* Pod */,
 				9F090E028F4CD3552A88BEF9B22D98BE /* Support Files */,
+				FA92AE8F2056F613009B5577 /* NSDate.swift */,
 			);
 			name = SwiftyEssentials;
 			path = ../..;
@@ -495,6 +498,7 @@
 				FA92AE862056D18E009B5577 /* Date.swift in Sources */,
 				601ADA1C3F681BD32A3F8C09D4F00390 /* SwiftyEssentials-dummy.m in Sources */,
 				FA92AE8A2056F1A4009B5577 /* Int.swift in Sources */,
+				FA92AE902056F613009B5577 /* NSDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
