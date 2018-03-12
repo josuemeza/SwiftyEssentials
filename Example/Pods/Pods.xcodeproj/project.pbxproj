@@ -18,6 +18,7 @@
 		E9A244FCA483A78EC86CFCCA5E223E22 /* Pods-SwiftyEssentials_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9805B28428EB2CEF20D48A663921B4 /* Pods-SwiftyEssentials_Example-dummy.m */; };
 		EF939CA4126A4EE76B327A7259599A56 /* Pods-SwiftyEssentials_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA28FB7952BA64C96E57999EE6792BC /* Pods-SwiftyEssentials_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA92AE862056D18E009B5577 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE832056D18E009B5577 /* Date.swift */; };
+		FA92AE8A2056F1A4009B5577 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE892056F1A4009B5577 /* Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		F36DF52FBDB6A478ACA01FBA7318F95D /* UIAlertController.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = UIAlertController.html; path = docs/Extensions/UIAlertController.html; sourceTree = "<group>"; };
 		F8F8B146516ACD963E916BCE1F148549 /* Pods-SwiftyEssentials_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyEssentials_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA92AE832056D18E009B5577 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Date.swift; path = SwiftyEssentials/Classes/Date.swift; sourceTree = "<group>"; };
+		FA92AE892056F1A4009B5577 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Int.swift; path = SwiftyEssentials/Classes/Int.swift; sourceTree = "<group>"; };
 		FC22180631131EE8DAE302122A264451 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		FD0A517E32D12ECF40DB966B4816C384 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/SwiftyEssentials.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		FF63FB5AAB6E36D3039BE432CFE2A196 /* SwiftyEssentials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyEssentials.modulemap; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			children = (
 				9B288296F6523A8953FB5E94647A31B2 /* Array.swift */,
 				FA92AE832056D18E009B5577 /* Date.swift */,
+				FA92AE892056F1A4009B5577 /* Int.swift */,
 				690EB4F1172D594C2F51247065E35DD8 /* Pod */,
 				9F090E028F4CD3552A88BEF9B22D98BE /* Support Files */,
 			);
@@ -491,6 +494,7 @@
 				A1ABCAA2FE9BDB3A2593BED2E9A5FA7C /* Array.swift in Sources */,
 				FA92AE862056D18E009B5577 /* Date.swift in Sources */,
 				601ADA1C3F681BD32A3F8C09D4F00390 /* SwiftyEssentials-dummy.m in Sources */,
+				FA92AE8A2056F1A4009B5577 /* Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
