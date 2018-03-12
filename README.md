@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'SwiftyEssentials'
 ```
 
+## Documentation
+All tools is documented [here](http://josuemeza.com/pods/SwiftyEssentials/).
+
 ## Author
 
 Josue Meza Peña, contacto@josuemeza.com
