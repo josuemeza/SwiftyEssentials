@@ -36,6 +36,8 @@
 		FA155581204A418900596540 /* PushPopSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */; };
 		FA155582204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */; };
 		FA92AE882056D1E3009B5577 /* DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE872056D1E3009B5577 /* DateTests.swift */; };
+		FA92AE8C2056F1D2009B5577 /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE8B2056F1D2009B5577 /* IntTests.swift */; };
+		FA92AE922056F62D009B5577 /* NSDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92AE912056F62D009B5577 /* NSDateTests.swift */; };
 		FA9A2699204B5D750083F2AF /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A2698204B5D750083F2AF /* ArrayTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,8 @@
 		FA15556C204A418900596540 /* PushPopSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushPopSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA15556D204A418900596540 /* TheOnlyOneElementSingleExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheOnlyOneElementSingleExampleTableViewCell.swift; sourceTree = "<group>"; };
 		FA92AE872056D1E3009B5577 /* DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTests.swift; sourceTree = "<group>"; };
+		FA92AE8B2056F1D2009B5577 /* IntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntTests.swift; sourceTree = "<group>"; };
+		FA92AE912056F62D009B5577 /* NSDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateTests.swift; sourceTree = "<group>"; };
 		FA9A2698204B5D750083F2AF /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,8 +165,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				FA92AE912056F62D009B5577 /* NSDateTests.swift */,
 				FA9A2698204B5D750083F2AF /* ArrayTests.swift */,
 				FA92AE872056D1E3009B5577 /* DateTests.swift */,
+				FA92AE8B2056F1D2009B5577 /* IntTests.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -519,6 +525,8 @@
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				FA92AE882056D1E3009B5577 /* DateTests.swift in Sources */,
 				FA9A2699204B5D750083F2AF /* ArrayTests.swift in Sources */,
+				FA92AE8C2056F1D2009B5577 /* IntTests.swift in Sources */,
+				FA92AE922056F62D009B5577 /* NSDateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
