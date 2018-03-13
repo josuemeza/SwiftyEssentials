@@ -64,7 +64,6 @@ extension ArrayTests {
     func testJoined() {
         let array: [NSAttributedString] = [NSAttributedString(string: "Lorem ipsum"), NSAttributedString(string: "sit amet")]
         let separator = NSAttributedString(string: " dolor ")
-        print(array.joined(separator: separator).string)
         if array.joined(separator: separator).string != "Lorem ipsum dolor sit amet" {
             XCTFail("Spected result is not valid")
         }

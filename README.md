@@ -5,13 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyEssentials)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyEssentials.svg?style=flat)](http://cocoapods.org/pods/SwiftyEssentials)
 
-## Example
+SwiftyEssentials is a collection of extensions created by simplify the common actions on the iOS apps development.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+All functionalities is documented on the [documentation page](http://josuemeza.com/pods/SwiftyEssentials/).
 
 ## Requirements
 
-## Installation
+### Installation
 
 SwiftyEssentials is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,8 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'SwiftyEssentials'
 ```
 
-## Documentation
-All tools is documented [here](http://josuemeza.com/pods/SwiftyEssentials/).
+### Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
