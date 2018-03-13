@@ -9,6 +9,91 @@ SwiftyEssentials is a collection of extensions created by simplify the common ac
 
 All functionalities is documented on the [documentation page](http://josuemeza.com/pods/SwiftyEssentials/).
 
+## Extensions
+
+#### Array of Bool
+
+| Attributes |
+| - |
+| Any |
+| All |
+
+#### Array of NSAttributedString
+
+| Methods |
+| - |
+| Joined |
+
+#### Array of Equatable
+
+| Methods |
+| - |
+| Remove |
+| Unique |
+
+#### Array like Stack
+
+| Methods |
+| - |
+| Push |
+| Pull |
+
+#### Array like Queue
+
+| Methods |
+| - |
+| Enqueue |
+| Dequeue |
+
+#### Array
+
+| Attributes | Methods |
+| - | - |
+| Has only one element | Take |
+| The only one element | Group of |
+
+#### Date
+
+| Attributes    | Methods         | Class functions   |
+| -             | -               | -                 |
+| Year          | Parse           | String            |
+| Month         | Now             | Is later than     |
+| Day           | Add             | Is earlier than   |
+| Hour          | Subtract        | Is Equal than     |
+| Minute        | From timestamp	|                   |
+| Second        |                 |                   |
+| Is today      |                 |                   |
+| Is yesterday  |                 |                   ||
+
+#### Int
+
+| Attributes |
+| - |
+| Days |
+| Hours |
+| Minutes |
+
+#### NSDate
+
+| Attributes |
+| - |
+| To date |
+
+#### String
+
+| Attributes | Methods |
+| - | - |
+| NSString | NSRange |
+| Capitalizing first letter | |
+| String by deleting path extension | |
+| Last path component | ||
+
+#### Timer
+
+| Class functions |
+| - |
+| Callback in duration |
+
 ## Requirements
 
 ### Installation
