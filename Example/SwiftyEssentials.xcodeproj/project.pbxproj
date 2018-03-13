@@ -443,7 +443,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyEssentials_Tests/Pods-SwiftyEssentials_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyEssentials/SwiftyEssentials.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyEssentials-iOS9.3/SwiftyEssentials.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -479,7 +479,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyEssentials_Example/Pods-SwiftyEssentials_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyEssentials/SwiftyEssentials.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyEssentials-iOS10.0/SwiftyEssentials.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
