@@ -52,7 +52,14 @@ extension StringTests {
         XCTAssert(str.lastPathComponent == "amet", "Error getting the last component.")
     }
     
-    func testNsrange() {
+    func testSubstring() {
+        let str = "lorem ipsum"
+        let testCase1 = str.substring(from: 0, to: 5) == "lorem"
+        let testCase2 = str.substring(from: 6) == "ipsum"
+        XCTAssert(testCase1 && testCase2, "Error on get substring.")
+    }
+    
+    func testNSRange() {
         let str = "lorem ipsum dolor sit amet"
         let nsrange = NSRange(location: 0, length: 5)
         XCTAssert(str.nsrange(of: "lorem") == nsrange, "Error getting the range.")

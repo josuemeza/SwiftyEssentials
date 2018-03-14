@@ -7,7 +7,7 @@
 
 SwiftyEssentials is a collection of extensions created by simplify the common actions on the iOS apps development.
 
-All functionalities is documented on the [documentation page](http://josuemeza.com/pods/SwiftyEssentials/).
+All the functionalities are documented on the [documentation page](http://josuemeza.com/pods/SwiftyEssentials/).
 
 ## Extensions
 

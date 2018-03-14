@@ -68,12 +68,25 @@ public extension String {
     // MARK: - Methods
     
     /**
-     **nsrange**
+     **substring(from:,to:)**
+     
+     Create a new string on the parameter range.
+     
+     - Parameter from: Start inclusive index of substring.
+     - Parameter to: End exclusive index of substring.
+     - Returns: A substring on the parameter range.
+     */
+    func substring(from: UInt, to: UInt? = nil) -> String {
+        guard let to = to, to <= self.count else { return self[Int(from)..<self.count] }
+        return self[Int(from)..<Int(to)]
+    }
+    
+    /**
+     **nsrange(of:)**
      
      Obtains a NSRange required for NSAttributedString.
      
      - Parameter text: A text to search.
-     
      - Returns: A NSRange of text.
      */
     func nsrange(of text: String) -> NSRange? {
