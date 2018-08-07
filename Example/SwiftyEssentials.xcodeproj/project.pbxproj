@@ -97,6 +97,7 @@
 		FA92AE95205704D9009B5577 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		FA92AE9920570CDE009B5577 /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
 		FA9A2698204B5D750083F2AF /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		FAE50FD92119EC5500102A1F /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 			children = (
 				E7082848E82B9B93DC87CACA /* SwiftyEssentials.podspec */,
 				8F27C8DDF38C5AE328C034A3 /* README.md */,
+				FAE50FD92119EC5500102A1F /* CHANGELOG.md */,
 				1B6D361AB71E46D3CCC36E42 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
