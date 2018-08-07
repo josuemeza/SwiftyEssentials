@@ -19,3 +19,22 @@ public extension Int {
     public var days: Int { return self * 60 * 60 * 24 }
     
 }
+
+public extension BinaryInteger {
+    
+    /**
+     **stringThousandFormatted**
+     
+     Makes a string representation of the number with thousand separator.
+     
+     - Parameter separator: String to separate this number in thousands format.
+     - Returns: A string representation of this number with thousand separator.
+     */
+    public func stringThousandFormatted(with separator: String) -> String? {
+        let formatter = NumberFormatter()
+        formatter.groupingSeparator = separator
+        formatter.numberStyle = .decimal
+        return formatter.string(for: self)
+    }
+    
+}
