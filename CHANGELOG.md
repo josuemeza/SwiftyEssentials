@@ -1,8 +1,14 @@
 # Changelog
 
+## **1.1.8** 2018-09-25
+
+### Updated
+
+- Range support changed on Xcode 10.
+
 ## **1.0.8** 2018-07-23
 
-## Added
+### Added
 
 - Integer transformation in thousands format.
 

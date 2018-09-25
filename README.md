@@ -9,9 +9,16 @@ SwiftyEssentials is a collection of extensions created by simplify the common ac
 
 The extended classes is `Array`, `Date`, `Int`, `NSDate`, `String` and `Timmer`. All the functionalities are documented on the [documentation page](http://josuemeza.com/pods/SwiftyEssentials/).
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Requirements
 
-### Installation
+- iOS 10.0+
+- Swift 3.2+
+
+## Installation
 
 SwiftyEssentials is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -19,10 +26,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftyEssentials'
 ```
-
-### Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
