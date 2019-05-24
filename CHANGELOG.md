@@ -1,5 +1,16 @@
 # Changelog
 
+## **1.1.9** 2019-05-24
+
+### Added
+
+- Support to Swift 5.
+
+### Updated
+
+- Travis configuration to run on xcode 10.2.
+- Travis simulator updated to iPhone X.
+
 ## **1.1.8** 2018-09-25
 
 ### Updated
