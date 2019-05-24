@@ -12,11 +12,11 @@ public extension Int {
     // MARK: - Time int values
     
     /// Int representation of minutes in seconds value.
-    public var minutes: Int { return self * 60 }
+    var minutes: Int { return self * 60 }
     /// Int representation of hours in seconds value.
-    public var hours: Int { return self * 60 * 60 }
+    var hours: Int { return self * 60 * 60 }
     /// Int representation of days in seconds value.
-    public var days: Int { return self * 60 * 60 * 24 }
+    var days: Int { return self * 60 * 60 * 24 }
     
 }
 
@@ -30,7 +30,7 @@ public extension BinaryInteger {
      - Parameter separator: String to separate this number in thousands format.
      - Returns: A string representation of this number with thousand separator.
      */
-    public func stringThousandFormatted(with separator: String) -> String? {
+    func stringThousandFormatted(with separator: String) -> String? {
         let formatter = NumberFormatter()
         formatter.groupingSeparator = separator
         formatter.numberStyle = .decimal
